@@ -43,7 +43,7 @@ gallery.insertAdjacentHTML(
   images
     .map(
       ({ url, alt }) =>
-        `<li><img src="${url}" alt="${alt}" style="width: 300px; height: auto; border-radius: 5px;"></li>`
+        `<li class="gallery-item"><img src="${url}" alt="${alt}" class="galary-image"></li>`
     )
     .join("")
 );
